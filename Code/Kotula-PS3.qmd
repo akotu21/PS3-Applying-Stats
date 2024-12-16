@@ -320,7 +320,7 @@ based on those estimates, the slope of the regression line is about 1.53
 
 The y-intercept is somewhere around 15.
 
-#### Build a linear regression model 
+#### Build a linear regression model
 
 ```{r}
 bat_model3 <- lm(body_length_mm ~ tail_length_mm, data = bats)
